@@ -1,0 +1,34 @@
+[
+    {
+        "text": "HTML",
+        "done": true
+    },
+    {
+        "text": "CSS",
+        "done": false
+    },
+    {
+        "text": "Responsive design",
+        "done": false
+    },
+    {
+        "text": "Javascript",
+        "done": true
+    },
+    {
+        "text": "PHP",
+        "done": true
+    },
+    {
+        "text": "Laravel",
+        "done": false
+    },
+    {
+        "text": "Bootstrap",
+        "done": true
+    },
+    {
+        "text": "Vue",
+        "done": false
+    }
+]
