@@ -4,7 +4,10 @@ createApp({
     data() {
         return {
             todoList: [],
-            todoItem: '',
+            todoItem: {
+                'text': '',
+                'done': false,
+            },
         }
     },
     methods: {
@@ -28,7 +31,7 @@ createApp({
                 }
             ).then(response => {
                 this.todoList = response.data;
-                this.todoItem = '';
+                this.todoItem.text = '';
             })
         }
     },

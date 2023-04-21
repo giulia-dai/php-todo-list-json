@@ -14,9 +14,9 @@
         <div class="container mt-5">
 
             <ul class="list-group">
-                <li v-for="todo in todoList" class="list-group-item">{{todo.text}}</li>
+                <li v-for="todo in todoList" class="list-group-item" :class="{'text-decoration-line-through' :todo.done}">{{todo.text}}</li>
             </ul>
-            <input @keyup.enter="addTodo()" type="text" v-model="todoItem" class="m-3" required>
+            <input @keyup.enter="addTodo()" type="text" v-model="todoItem.text" class="m-3" required>
             <button class="btn btn-primary m-3" @click="addTodo()">Aggiungi ToDo</button>
 
         </div>
